@@ -13,6 +13,13 @@
    
 }
 
+body{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .button{
     color: white;
     margin-left: 1px;
@@ -23,17 +30,19 @@
     transition: .2s;
 }
 .fondo-login{
-    background-color: rgba(255, 255, 255, 0.342);
-    min-height: 100vh;
-    padding-top: 50px;
+    width: 100%;
 }
 .login{
+    width: 70%;
     color:  rgb(0, 0, 0);
     margin: auto;
     border: 1px solid rgba(16, 17, 17, 0.466);
     padding: 20px;
     border-radius: 6px;
     background-color: #0d6dfd59;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .icono, .titulo{
     text-align: center;
